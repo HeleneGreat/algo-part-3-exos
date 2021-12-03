@@ -10,6 +10,15 @@
  * Voir le fichier de tests associé (spec/songSpec.js)
  */
 function song(km) {
+    
+    let i = 0;     
+    let message = "";      
+    while (i < km) {         
+        message += (i + 1) + " km à pied, ça use, ça use, ça use,\n" + (i + 1) + " km à pied, ça use les souliers\n";         
+        ++i;     
+        }      
+    return message;
+
     // CODE HERE
 }
 
